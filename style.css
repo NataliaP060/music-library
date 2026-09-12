@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 20px;
+    background-color: rgb(209, 241, 223);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+}
+header{
+    background-color: rgb(188, 244, 222);
+    color: rgb(62, 101, 135);
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(135, 225, 209);
+    padding: 10px;
+}
+.link:hover{
+    color: blue;
+       text-decoration: underline;
+ 
+}
+.card-artists{
+     padding: 20px;
+    background-color: rgb(223, 250, 232);
+    margin: 10px;
+    border: 1px solid rgb(125, 220, 163);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+    .card-albums{
+     padding: 20px;
+    background-color: rgb(223, 250, 232);
+    margin: 10px;
+    border: 1px solid rgb(125, 220, 163);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.card-songs{
+     padding: 20px;
+    background-color: rgb(223, 250, 232);
+    margin: 10px;
+    border: 1px solid rgb(125, 220, 163);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

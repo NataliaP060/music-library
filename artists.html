@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 5</title>
+         <link rel = "stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <header>
+            <h1>Artist page</h1>
+        </header>
+        <nav>
+            <a class="linka" href="index.html">Home</a>
+             <a class="link" href="artists.html">Artists</a>
+            <a class="link" href="albums.html">Albums</a>
+            <a class="link" href="songs.html">Songs</a>
+        </nav>
+        <main>
+            <h2>Add artists</h2>
+            <input id="name" placeholder="Artist Name">
+            <input id="genre" placeholder="Genre">
+            <input id="listeners" placeholder="Monthly listeners">
+
+            <button onclick="createArtist()">createArtist</button>
+
+            <h2>Artists</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Genre</th>
+                        <th>listeners</th>
+                        <th>Actions</th>
+                   </tr>
+                </thead>
+                <tbody id="artistTable"></tbody>
+            </table>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+    <footer>
+        <p>© 2026 Natalia | CS230</p>
+    </footer>
+    
+</html>
