@@ -15,5 +15,14 @@
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "sqlite3": "^6.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaP060/music-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NataliaP060/music-library/issues"
+  },
+  "homepage": "https://github.com/NataliaP060/music-library#readme"
 }
